@@ -1,0 +1,13 @@
+name: MetabloxBSC
+version: '${project.version}'
+main: gagezilla.metabloxbsc.MetabloxBSC
+api-version: 1.18
+load: STARTUP
+authors: [Gage]
+description: A lib plugin for communicating with the Binance Smart Chain.
+website: https://metablox.page/
+
+commands:
+  test:
+    description: testing the bsc
+    usage: /test
